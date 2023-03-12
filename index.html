@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Code</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/22a5ba0758.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+</head>
+
+<body>
+  <div id="container">
+    <!-- tool -->
+    <div class="tool">
+      <input id="color" type="color">
+      <button>
+        <label for="color">
+          <i class="fa-solid fa-pen-nib" id="cl"></i>
+        </label>
+      </button>
+      <button id="eraser">
+        <i class="fa-solid fa-eraser"></i>
+      </button>
+      <button id="decrease">
+        -
+      </button>
+      <button id="size">
+        20
+      </button>
+      <button id="increase">
+        +
+      </button>
+      <button>
+        <a id="save" download="tenfile.png">
+          <i class="fa-solid fa-floppy-disk"></i>
+        </a>
+      </button>
+      <button id="clear">
+        <i class="fa-solid fa-trash"></i>
+      </button>
+    </div>
+    <!-- content -->
+    <div class="content">
+      <canvas id="paint" width="997px" height="605px"></canvas>
+    </div>
+  </div>
+  <script src=" script.js">
+  </script>
+</body>
+
+</html>

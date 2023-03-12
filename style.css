@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+html{
+  border: none;
+}
+
+i{
+  border: none;
+}
+
+a{
+  border: none;
+}
+
+input{
+  display: none;
+}
+
+label{
+  border: none;
+}
+
+div#container{
+  width: 1000px;
+  height: 660px;
+  position: relative;
+}
+
+
+.tool{
+  background:rgb(90,118,179);
+  display: flex;
+  align-items: center;
+}
+
+
+.tool > button{
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  font-size: 20px;
+  background:rgb(174, 176, 180);
+  border-radius: 9px;
+}
+
+
+button:hover{
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.tool label:hover{
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+canvas#paint{
+  position: absolute;
+}
